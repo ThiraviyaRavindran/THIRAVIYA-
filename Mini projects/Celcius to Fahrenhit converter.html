@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="converter.css">
+</head>
+<body>
+    <div id="wrapper">
+    <h1>celcius to fahrenhit</h1>
+    <div class="sandal">
+    <input type="text" id="moto" placeholder="celcius">
+    </div>
+    <div class="gokul">
+        <button type="submit" onclick ="convert()"> convert to <b>F</b></button>
+
+<div id="result"></div>
+</div>  
+</div>    
+<script>
+    function convert(){
+  let celval = Number(document.getElementById("moto").value)
+  let infehval= (celval * 1.8) + 32
+  let result= document.getElementById("result")
+  result.innerHTML = infehval
+    }
+</script>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+</body>
+</html>

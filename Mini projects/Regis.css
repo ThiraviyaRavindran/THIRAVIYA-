@@ -1,0 +1,155 @@
+/*body{
+
+    background-image:url(file:///C:/Users/USER/Desktop/JAVA%20FRONTEND/HTML%20AND%20CSS/shincahn.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed;
+} 
+#date{
+    position:left;
+
+}
+#box{
+    position: relative;
+    background-color: chartreuse;
+    width: 100px;
+    height: 100px;
+}
+
+.dropdown button{
+
+    background-color:blue;
+
+    color: black;
+
+    padding: 10px 15px;
+
+    border: none;
+
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.dropdown a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.dropdown{
+    display: inline;
+}
+.dropdown.content{
+
+ display:none;
+    position: absolute;
+    background-color: gray;
+    min-width:100px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.dropdown:hover .content{
+    display:black;
+}
+.dropdown:hover button{
+background-color: tomato;
+}
+
+.dropdown a:hover{
+    display: none;
+
+}
+
+body{
+    margin: 0px;
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: pink;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color:whitesmoke;
+}
+.navbar li{
+    float: left;
+}*/
+
+  *{
+    text-decoration: none;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+  }
+  body{
+    background-image:url(BMW.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+  h1{
+    font-size: 80px;
+    font-style: italic;
+   display: inline;
+    
+    
+
+      
+  }
+  .navbar ul{
+    font-family: 'Courier New', Courier, monospace;
+    float: right;
+    padding: 15px;
+    display: flex;
+    height: 100px;
+    
+  }
+
+  
+  .navbar li{
+    
+    height: 109px;
+    float: right;
+    padding: 20px;
+    
+  }
+  h2{
+    color: blueviolet;
+    font-style: oblique;
+    font-size: 100px;
+    animation: grow;
+    animation-duration: 1s;
+   
+    
+  }
+  h2::first-letter{
+    font-size: 150px;
+    color: black;
+  }
+
+  @keyframes grow{
+    50% {transform:scale(1,0)}
+    
+  }
+  .navbar a{
+    color: black;
+    display: flex;
+  }
