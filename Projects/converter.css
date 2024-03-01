@@ -1,0 +1,60 @@
+body{
+    background-color:rgb(223, 205, 104);
+}
+h1{
+    text-align:center;
+    text-transform: capitalize;
+    text-decoration: double underline;
+    text-decoration-color: rgb(211, 2, 2);
+}
+input{
+    width: 250px;
+    height: 3em;
+    border: 2px solid black;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+input:active{
+    border: none;
+}
+#wrapper{
+    width: 500px;
+    height: 500px;
+    background-color:pink;
+    border-radius: 10px;
+    margin: 200px auto;
+    padding: 30px;
+    box-sizing: border-box;
+    
+}
+.sandal{
+    text-align:center;
+    width: 450px;
+    height: 100px;
+    
+}
+button{
+    width: 350px;
+   height: 50px;
+   
+}
+.gokul{
+    text-align: center;
+    height: 200px;
+   width: 450px;
+}
+.placeholder{
+    text-size-adjust: 10px;
+}
+#result{
+color:darkred
+
+
+}
+
+
+
+
+    
+    
+

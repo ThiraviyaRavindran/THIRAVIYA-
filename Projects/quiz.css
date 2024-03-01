@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding:0;
+
+}
+body{
+    background-color:pink;
+}
+
+.box{
+background:white;
+width: 60%;
+max-width:600px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+}
+.box h1{
+color: blueviolet;
+padding: 10px;
+border-bottom: 1px solid;
+padding-bottom: 30px;
+font-size: 25px;
+
+}
+.box1{
+    padding: 10px 0;
+}
+.btn{
+    padding:10px;
+    font-weight: 500;
+    width: 100%;
+    border: 1px solid violet;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.btn:hover{
+    background:#222;
+    color:blue;    
+}
+#btnnext{
+    padding: 10px;
+    width: 150px;
+    border-radius: 1px;
+    background-color: green;
+margin: 10% auto 0;
+cursor: pointer;
+display: none;
+
+}
+.correct{
+    background-color: green;
+}
+.incorrect{
+    background-color: red;
+}
